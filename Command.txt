@@ -1,0 +1,36 @@
+Backend:
+cd Backend
+npm init -y
+npm i express
+npm i mongoose
+npm i dotenv
+npm i body-parser
+npm i nodemon
+npm i cors
+npm i nodemailer
+npm i multer path
+npm install cloudinary
+
+for shortcut:
+npm i express mongoose cloudinary dotenv body-parser nodemon cors nodemailer multer path http socket.io 
+
+
+Frontend:
+cd ..
+cd Frontend
+npm i axios
+npm i react-router-dom
+npm install react-chartjs-2 chart.js
+npm i redux react-redux
+npm install jspdf
+npm install jspdf-autotable
+
+
+
+for shortcut:
+npm i express axios react-router-dom react-chartjs-2 chart.js redux react-redux socket.io-client
+npm i express axios react-router-dom react-chartjs-2 chart.js redux react-redux jspdf jspdf-autotable
+
+
+To run Both the server
+npm run dev

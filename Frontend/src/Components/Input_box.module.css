@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+:root {
+    --primary-color: #795AAC;
+    --button : #999DEE;
+    --Background: #E9E9E9;
+    --text: White;
+}
+
+
+
+.type {
+    width: 90%;
+    height: 80px;
+}
+.type input {
+    border-radius: 10px;
+}
+.type > p {
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 10px 0px;
+    word-spacing: 5px;
+}
+.type p > span {
+    color: red;
+    margin: 0px 4px;
+    font-size: 1.3em;
+}

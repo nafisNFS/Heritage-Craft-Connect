@@ -1,0 +1,145 @@
+.seeAllArticles {
+  position: relative;
+  /* font-size: var(--font-size-xl); */
+  /* letter-spacing: 0.1em; */
+  font-size: 20px;
+  line-height: 30px;
+  /* font-family: var(--button-medium); */
+  color: white;
+  text-align: center;
+  /* border-radius: 10px; */
+}
+.allCommunity,
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  cursor: pointer;
+  border: 0;
+  padding: 5px;
+  background-color: var(--button);
+  border-radius: 5px;
+  width: 240px;
+  height: 56px;
+  /* flex-direction: row; */
+}
+.allCommunity {
+  position: absolute;
+  top: 756px;
+  left: 599px;
+  flex-direction: column;
+}
+.images1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 454px;
+  height: 386px;
+  object-fit: cover;
+}
+.images1Wrapper {
+  position: relative;
+  width: 454px;
+  height: 386px;
+}
+.wearYourStory {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 25px;
+}
+.handmadeJewelleryIs {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  /* font-size: 10; */
+  line-height: 19px;
+  color: var(--opal);
+}
+.readArticle {
+  cursor: pointer;
+  border-radius: 5px;
+  /* border: 20px; */
+  padding: 7px;
+  /* transform: translate(50%, 50%); */
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  /* background-color: #999DEE; */
+  position: relative;
+  font-size: 15px;
+  /* font-size: var(--font-size-xs); */
+  letter-spacing: 0.1em;
+  line-height: 30px;
+  /* font-family: var(--button-medium); */
+  /* color: var(--stormy); */
+  /* text-align: center; */
+  display: inline-block;
+}
+.groupParent,
+.wearYourStoryHandmadeJeweParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wearYourStoryHandmadeJeweParent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.groupParent {
+  width: 454px;
+  gap: var(--gap-base);
+}
+.shitolpati1Icon {
+  position: relative;
+  width: 454px;
+  height: 383px;
+  object-fit: cover;
+}
+.articles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.communityHubFueling {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: -0.02em;
+  line-height: 60px;
+  font-size: 35px;
+}
+.community,
+.header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.header {
+  top: 0;
+  background-color: #795aac;
+  height: 87px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--text);
+}
+.community {
+  top: 2672px;
+  height: 830px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  /* color: var(--stormy);0 */
+  /* color: #E9E9E9; */
+  font-family: var(--button-medium);
+}

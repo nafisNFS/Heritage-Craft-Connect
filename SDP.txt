@@ -1,0 +1,19 @@
+Font:@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+font-family: 'Han ken Grotesk', sans-serif;
+Title Font Size:
+Text color: White
+Background(Heading+Footer):#795AAC
+Background:#E9E9E9
+P. Button: #999DEE
+S. Button:
+Border:#7CD1D0
+
+Database
+
+Username:ABCDE
+pass:ABCDE
+connection:mongodb+srv://ABCDE:ABCDE@firstcluster.9ja0abi.mongodb.net/?retryWrites=true&w=majority
+
+SMTP:
+Email: 'sdpproject74@gmail.com'
+password: @sdpproje123

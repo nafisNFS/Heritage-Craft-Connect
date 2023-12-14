@@ -1,0 +1,48 @@
+/* ProfilePictureChange.module.css */
+
+.profilePictureChange {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    top: 250px;
+    position: relative;
+    /* background-color: #d9d9d9; */
+  }
+  
+  .imageContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .placeholder {
+    color: #888;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  .input {
+    margin-top: 20px;
+  }
+  
+  .button {
+    position: relative;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #999DEE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    left: 15px;
+  }
+  
+  .button:hover {
+    background-color: #8285c9;
+  }
+  

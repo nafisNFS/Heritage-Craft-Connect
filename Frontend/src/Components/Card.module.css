@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+:root {
+    --primary-color: #795AAC;
+    --secondary-color: rgb(226, 222, 230);
+    --button : #999DEE;
+    --Background: #E9E9E9;
+    --text: White;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+
+.card{
+    width: fit-content;
+    max-width: 232px;
+    border: 2px solid var(--border-color);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0px 0px 7px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.card .div-info{
+    max-width: calc(100% - 10px);
+    margin: 2px 5px 10px 5px;
+    overflow: hidden;
+    
+}
+.card img{
+    width: 228px;
+    height: 304px;
+}
+.card p {
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /*Display ellipsis (...) for overflowing text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    word-wrap: break-word; /* Allow long words to break and wrap */
+}

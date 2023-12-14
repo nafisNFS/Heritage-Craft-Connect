@@ -1,0 +1,382 @@
+.body {
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+.border,
+.pictureIcon {
+  position: absolute;
+  left: 0;
+}
+.border {
+  top: 145px;
+  background-color: #795aac;
+  width: 411px;
+  height: 2px;
+}
+.pictureIcon {
+  top: 0;
+  width: 96px;
+  height: 96px;
+}
+.name,
+.welcome {
+  position: absolute;
+  left: 130px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--font-raleway);
+  text-align: left;
+}
+.name {
+  font-weight: 700;
+  top: 10px;
+  font-size: var(--font-size-5xl);
+  color: #010101;
+}
+.welcome {
+  top: 40px;
+  left: 130px;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  display: inline-block;
+  width: 208px;
+}
+.header {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 23px;
+  width: 338px;
+  height: 96px;
+}
+.cartChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--button);
+  width: 142px;
+  height: 69px;
+}
+.iconShoppingBag {
+  height: 49.83%;
+  width: 20.07%;
+  top: 27.54%;
+  right: 72.88%;
+  bottom: 22.63%;
+  left: 7.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cart,
+.iconShoppingBag,
+.myCart {
+  position: absolute;
+}
+.myCart {
+  top: 23px;
+  left: 51px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--white);
+  text-align: left;
+}
+.cart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 10px;
+  top: 170px;
+  left: 35px;
+  width: 142px;
+  height: 69px;
+}
+.iconActionHeartLoveLikeR {
+  position: absolute;
+  height: 49.76%;
+  width: 26.06%;
+  top: 25.36%;
+  right: 68.66%;
+  bottom: 24.88%;
+  left: 5.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.wishlist1 {
+  position: absolute;
+  top: 23px;
+  left: 54px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--white);
+  text-align: left;
+}
+.wishlist {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 170px;
+  left: 205px;
+  width: 142px;
+  height: 69px;
+}
+.iconCommunicationBubbleTex {
+  position: absolute;
+  height: 43.61%;
+  width: 21.83%;
+  top: 26.81%;
+  right: 72.89%;
+  bottom: 29.58%;
+  left: 5.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.messages {
+  top: 23px;
+  left: 42px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: #fdfdfd;
+  text-align: left;
+  display: inline-block;
+  width: 95px;
+  height: 25px;
+}
+.chat,
+.iconBell,
+.messages {
+  position: absolute;
+}
+.chat {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 265px;
+  left: 35px;
+  width: 142px;
+  height: 69px;
+}
+.iconBell {
+  height: 51.64%;
+  width: 23.59%;
+  top: 24.64%;
+  right: 70.77%;
+  bottom: 23.73%;
+  left: 5.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notification1 {
+  position: absolute;
+  top: 23px;
+  left: 46px;
+  font-size: var(--text-18px-regular-size);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: #fefefe;
+  text-align: left;
+}
+.notification {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 265px;
+  left: 205px;
+  width: 142px;
+  height: 69px;
+}
+.myOrdersChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #D9D9D9;
+  width: 411px;
+  height: 56px;
+}
+.iconNavIconListA {
+  position: absolute;
+  height: 44.18%;
+  width: 6.94%;
+  top: 28.57%;
+  right: 83.09%;
+  bottom: 27.25%;
+  left: 9.98%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  filter: invert(100%);
+}
+.myOrders1 {
+  position: absolute;
+  top: 18px;
+  left: 100px;
+  font-size: var(--text-18px-regular-size);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+}
+.myOrders,
+.trackChild {
+  position: absolute;
+  left: 0;
+  width: 411px;
+  height: 56px;
+}
+.myOrders {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 352px;
+}
+.trackChild {
+  top: 0;
+  background-color: #795AAC;
+}
+.iconZoomPan {
+  position: absolute;
+  height: 75%;
+  width: 10.22%;
+  top: 12.5%;
+  right: 81.02%;
+  bottom: 12.5%;
+  left: 8.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.trackingOrders {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--white);
+  text-align: left;
+}
+.track {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 409px;
+  left: 0;
+  width: 411px;
+  height: 56px;
+}
+.iconPeopleCommunity {
+  position: absolute;
+  height: 66.07%;
+  width: 9%;
+  top: 17.86%;
+  right: 82%;
+  bottom: 16.07%;
+  left: 9%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  filter: invert(100%);
+}
+.goToCraft {
+  position: absolute;
+  top: 16px;
+  left: 99px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--color-black);
+  text-align: left;
+}
+.community {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 466px;
+  left: 0;
+  width: 411px;
+  height: 56px;
+}
+.iconLogout {
+  position: absolute;
+  height: 42.86%;
+  width: 5.84%;
+  top: 23.21%;
+  right: 83.45%;
+  bottom: 33.93%;
+  left: 10.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.signOut1 {
+  position: absolute;
+  top: 13px;
+  left: 100px;
+  font-size: var(--font-size-xl);
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: var(--font-raleway);
+  color: var(--white);
+  text-align: left;
+}
+.signOut {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 523px;
+  left: 0;
+  width: 411px;
+  height: 56px;
+}
+.buyerProfileDropdown .b {
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+.buyerProfileDropdown {
+    border: 1px solid black;
+    /* box-shadow: 1px 2px 1px 4px rgb(194, 192, 192); */
+    border-radius: 5px;
+    float: right;
+    position: fixed;
+    background-color: var(--white);
+    width: 380px;
+    height: 523px;
+    overflow: hidden;
+    z-index: 100;
+    top: 92px;
+    left: 73%;
+    transform: translate(8%, -9%);
+
+}

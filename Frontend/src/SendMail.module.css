@@ -1,0 +1,102 @@
+.newPassword {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    font-weight: 700;
+    width: 600px;
+    font-size: 50px;
+  }
+  .newPasswordInput {
+    background-color: #fffcfc;
+    position: absolute;
+    top: 150px;
+    left: 455px;
+    width: 489px;
+    height: 52px;
+  }
+  .reTypePasswordInput {
+    border: 1px solid var(--color-black);
+    background-color: #fffdfd;
+    position: absolute;
+    top: 223px;
+    left: 464px;
+    border-radius: var(--br-7xs);
+    box-sizing: border-box;
+    width: 480px;
+    height: 52px;
+  }
+  .button {
+    position: relative;
+    font-size: var(--button-medium-size);
+    line-height: 22px;
+    font-family: var(--text-16px-regular);
+    color: #ffffff;
+    text-align: center;
+  }
+  .verifyButton {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-lg) var(--padding-25xl);
+    background-color: var(--button);
+    position: absolute;
+    top: 300px;
+    left: 630px;
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--bg);
+    width: 396px;
+    height: 507px;
+  }
+  .groupItem,
+  .screenshot202309081712032 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 396px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .screenshot202309081712032 {
+    height: 10.81%;
+    width: 39.39%;
+    top: 20px;
+    right: 49.75%;
+    bottom: 65.44%;
+    left: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .rectangleParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 396px;
+    height: 518px;
+  }
+  
+  .forgotpass {
+    top: 150px;
+    left: 250px;
+    position: absolute;
+    border-radius: 15px;
+    background-color: var(--light-light-1);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1000px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-dm-sans);
+  }
+  

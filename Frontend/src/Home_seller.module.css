@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+:root {
+    --primary-color: #795AAC;
+    --secondary-color: rgb(226, 222, 230);
+    --button : #999DEE;
+    --Background: #E9E9E9;
+    --text: White;
+}
+.header {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--Background);
+}
+.header .left {
+    margin-top: 20px;
+    width: 37%;
+    height: 95%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.header .left .box {
+    width: 45%;
+    height: 45%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header .left .box .first {
+    font-size: 1.1em;
+    font-family: 'Han ken Grotesk', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header .left .box > p {
+    margin-left: 25px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.header .right {
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(126, 128, 0);
+    float: right;
+}
+
+  
+  /* Style for the line graph */
+  .header .right .graph {
+    width: 100%;
+    height: 100%;
+  }
+.line {
+    margin: auto;
+    width: 90%;
+    height: 10px;
+    background-color: var(--primary-color);
+}
+.middle {
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--Background);
+}
+.middle .left {
+    width: 62%;
+    height: 95%;
+    margin: auto;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.middle .left  > p,.customer .orders > p,.customer .topcustomer > p {
+    margin: 10px 0px;
+    font-size: 1.6em;
+    font-family: 'Han ken Grotesk', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.middle .left .inner {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.middle .right {
+    width: 30%;
+    height: 95%;
+    margin: auto;
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+.customer {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    background-color: var(--Background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.customer .orders {
+    width: 65%;
+    height: 100%;
+
+}
+.customer .orders .table {
+    margin-top: 10px;
+    width: 100%;
+    height: 85%;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+.customer .orders .table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.customer .orders .table table, .customer .orders .table th, .customer .orders .table td {
+border: 1px solid #ddd;
+}
+
+.customer .orders .table th, .customer .orders .table td {
+padding: 8px;
+text-align: left;
+}
+
+.customer .orders .table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+.customer .topcustomer {
+    margin-top: 10px;
+    width: 25%;
+    height: 100%;
+}
+
+.customer .topcustomer .table table {
+    margin: 10px 0px;
+    background-color: var(--secondary-color);
+    border: 10px;
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.customer .topcustomer .table table, .customer .topcustomer .table th, .customer .topcustomer .table td {
+border: 1px solid #ddd;
+}
+
+.customer .topcustomer .table th, .customer .topcustomer .table td {
+padding: 8px;
+text-align: left;
+}
+
+.customer .topcustomer .table tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+
+

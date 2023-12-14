@@ -1,0 +1,33 @@
+/* Custom CSS for Google Translate dialog box */
+.goog-te-banner-frame {
+    display: none !important;
+  }
+  
+  .goog-te-gadget-simple {
+    background-color: #f8f8f8 !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    font-family: Arial, sans-serif !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .goog-te-gadget-icon {
+    display: none !important;
+  }
+  
+  .goog-te-gadget-simple .goog-te-menu-value {
+    color: #333 !important;
+  }
+  
+  .goog-te-gadget-simple .goog-te-menu-value span {
+    display: none !important;
+  }
+  
+  .goog-te-gadget-simple .goog-te-menu-value:hover {
+    background-color: #e2e2e2 !important;
+  }
+  
+  .goog-te-gadget-simple .goog-te-menu2 {
+    max-width: none !important;
+  }

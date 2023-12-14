@@ -1,0 +1,417 @@
+.changePassButton {
+  cursor: pointer;
+  top: 455px;
+  left: 400px;
+  display: flex;
+  gap: 7px;
+  position: absolute;
+}
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--button);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 145px;
+  height: 50px;
+}
+.button {
+  position: absolute;
+  top: 14px;
+  left: 42px;
+  font-size: var(--text-18px-regular-size);
+  font-family: var(--text-16px-regular);
+  color: var(--white);
+  text-align: left;
+}
+.groupChild,
+.save {
+  position: absolute;
+  left: 0;
+}
+.save {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--transparent);
+  top: 529px;
+  width: 145px;
+  height: 50px;
+}
+.groupChild {
+  top: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--f7f7f9);
+  width: 641px;
+  height: 36px;
+}
+.input {
+  border: 0;
+  font-family: var(--font-raleway);
+  font-size: var(--text-16px-regular-size);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 18.05px);
+  left: calc(50% - 289.5px);
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 503px;
+  height: 36.1px;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2 {
+  position: absolute;
+  height: 118.18%;
+  width: 113.33%;
+  top: -9.09%;
+  right: -6.67%;
+  bottom: -9.09%;
+  left: -6.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  height: 88.18%;
+  top: 5.91%;
+  bottom: 5.91%;
+}
+.vectorIcon2 {
+  height: 43.74%;
+  width: 38.33%;
+  top: 30.35%;
+  right: 33.34%;
+  bottom: 25.91%;
+  left: 28.32%;
+}
+.group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 30.47%;
+  width: 2.34%;
+  top: 33.24%;
+  right: 7.96%;
+  bottom: 36.29%;
+  left: 89.7%;
+}
+.emailAddress1,
+.password,
+.rectangleParent {
+  position: absolute;
+  top: 26.45px;
+  left: 0;
+  width: 641px;
+  height: 36.1px;
+}
+.emailAddress1,
+.password {
+  top: 379.55px;
+  height: 62.55px;
+}
+.emailAddress1 {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 158.81px;
+  height: 13.46px;
+}
+.groupItem {
+  position: absolute;
+  top: 0.14px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--f7f7f9);
+  width: 641px;
+  height: 34.01px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.edit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 14.64px;
+  left: 576px;
+  width: 10px;
+  height: 9.76px;
+}
+.divi,
+.rectangleGroup {
+  position: absolute;
+  height: 34.15px;
+}
+.divi {
+  border: 0;
+  font-weight: 500;
+  /* font-family: var(--font-poppins); */
+  /* font-size: var(--button-xsmall-size); */
+  background-color: transparent;
+  top: 0;
+  left: 27px;
+  line-height: 16px;
+  text-transform: lowercase;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 517px;
+}
+.rectangleGroup {
+  top: 25.37px;
+  left: 0;
+  width: 641px;
+}
+.division {
+  top: 305.4px;
+  width: 641px;
+  height: 59.52px;
+}
+.address1,
+.division,
+.groupInner {
+  position: absolute;
+  left: 0;
+}
+.address1 {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 126.29px;
+  height: 14.12px;
+}
+.groupInner {
+  top: 0.42px;
+  border-radius: var(--br-sm);
+  background-color: var(--f7f7f9);
+  width: 641px;
+  height: 35.68px;
+}
+.khulna {
+  border: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--button-xsmall-size);
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 31px;
+  color: var(--b2b2b);
+  text-align: left;
+  display: inline-block;
+  width: 513px;
+  height: 41.96px;
+}
+.address,
+.mobileNumber,
+.rectangleContainer {
+  position: absolute;
+  top: 26.34px;
+  left: 0;
+  width: 641px;
+  height: 41.96px;
+}
+.address,
+.mobileNumber {
+  top: 228.32px;
+  height: 68.3px;
+}
+.mobileNumber {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 225.79px;
+  height: 14.12px;
+}
+.edit2,
+.frameInput {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.frameInput {
+  font-family: var(--font-poppins);
+  font-size: var(--button-xsmall-size);
+  top: 0;
+  left: 31px;
+  width: 517px;
+  height: 36.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.edit2 {
+  cursor: pointer;
+  padding: 0;
+  top: 7.81px;
+  left: 576px;
+  width: 10px;
+  height: 9.76px;
+}
+.groupDiv,
+.lastName1,
+.area {
+  position: absolute;
+  top: 26.34px;
+  left: 0;
+  width: 641px;
+  height: 36.1px;
+}
+.lastName1,
+.area {
+  top: 151.24px;
+  height: 62.45px;
+}
+.lastName1 {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 156.9px;
+  height: 14.12px;
+}
+.edit3,
+.oyiboke {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.oyiboke {
+  font-family: var(--font-poppins);
+  font-size: var(--button-xsmall-size);
+  top: 0;
+  left: 31px;
+  color: var(--b2b2b);
+  text-align: left;
+  display: inline-block;
+  width: 517px;
+  height: 36.1px;
+}
+.edit3 {
+  cursor: pointer;
+  padding: 0;
+  top: 4.88px;
+  left: 576px;
+  width: 10px;
+  height: 9.76px;
+}
+.mobile {
+  position: absolute;
+  top: 74.15px;
+  left: 0;
+  width: 641px;
+  height: 62.45px;
+}
+.edit4,
+.emmanuel {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.edit4 {
+  cursor: pointer;
+  padding: 0;
+  top: 10.73px;
+  left: 575px;
+  width: 10px;
+  height: 9.76px;
+}
+.emmanuel {
+  font-family: var(--font-poppins);
+  font-size: var(--button-xsmall-size);
+  top: 0;
+  left: 31px;
+  color: var(--b2b2b);
+  text-align: left;
+  display: inline-block;
+  width: 513px;
+  height: 34.15px;
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+
+.firstName,
+.information {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 641px;
+  height: 59.52px;
+}
+.information {
+  height: 442.1px;
+}
+.form {
+  top: 180px;
+  left: 519px;
+  /* height: 600px; */
+  text-align: left;
+  font-size: var(--text-16px-regular-size);
+  color: var(--b2b2b);
+  font-family: var(--font-raleway);
+  height: 500px;
+  position: absolute;
+  width: 641px;
+  /* height: 59.52px; */
+}
+
+.edit {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.edit {
+  cursor: pointer;
+  padding: 0;
+  top: 15px;
+  left: 576px;
+  width: 10px;
+  height: 10px;
+}
+
+.vectoricon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.input {
+  border: 0;
+  font-family: var(--font-raleway);
+  font-size: var(--text-16px-regular-size);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 18.5px);
+  left: 0px;
+  color: var(--color-black);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 517px;
+  height: 37px;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+
+:root {
+    --primary-color: #795AAC;
+    --button: #999DEE;
+    --Background: #E9E9E9;
+    --text-color: White;
+    --text: 'Han ken Grotesk', sans-serif;
+}
+
+.container {
+    width: 450px;
+    height: 600px;
+    position: fixed;
+    top: 53%;
+    left: 45%;
+    transform: translate(100%, -40%);
+    background-color: var(--Background);
+    border-radius: 10px;
+    z-index: 100;
+
+}
+
+.container .top {
+    width: 95%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    background-color: var(--text-color);
+
+}
+
+
+.container .top .right {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(205, 203, 203);
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 2px 2px 2px var(--primary-color); */
+    background: border-box;
+}
+
+.container .top .right .btn {
+
+    align-items: center;
+    font-size: 30px;
+}
+
+.container .top .right > p {
+    font-family: var(--text);
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 10px 0px 10px 70px;
+}
+
+.container .middle {
+    width: 95%;
+    height: 88%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -48%);
+    display: flex;
+    flex-direction: row;
+    background-color: var(--text-color);
+}
+
+.container .middle .left {
+    width: 17%;
+    height: 100%;
+    border: 1px solid rgb(144, 141, 141);
+    cursor: pointer;
+    box-shadow: inset -3px 0px 5px cadetblue;
+    overflow-y: scroll;
+}
+
+
+.container .middle .left .image {
+    width: 60px;
+    height: 60px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container .middle .left .image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.container .middle .left .image > p {
+    font-size: 20px;
+    margin-left: 4px;
+    font-weight: 500;
+    text-align: center;
+    word-wrap: break-word;
+    margin-top: 14px;
+}
+.container .middle .right {
+    width: 83%;
+    height: 100%;
+    background-color: aliceblue;
+   
+}
+
+
+
+.container .middle .right .up {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.container .middle .right .down {
+    width: 83%;
+    height: 10%;
+    border: 1px solid rgb(144, 141, 141);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+
+.container .middle .right .down > input {
+    width: 76%;
+    height: 60%;
+    border-radius: 20px;
+    margin: auto;
+    border: 1px solid rgb(144, 141, 141);
+}
+
+.container .middle .right .down > button {
+    margin: auto;
+    width: 20%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: var(--button);
+    color: var(--text-color);
+}

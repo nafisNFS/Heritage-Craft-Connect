@@ -1,0 +1,52 @@
+.footer {
+    background: var(--secondary-background-color);
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    top: calc(100dvh - 210.363px); */
+    padding: 20px 40px;
+    margin-top: 0px;
+}
+
+.logo img {
+    max-width: 185px;
+}
+
+.logo-and-motto,
+.shop-company,
+.links {
+    display: flex;
+    flex-direction: column;
+}
+.shop-company{
+    gap: 25px;
+    font-size: 14px;
+}
+.links a{
+    color: black;
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    gap: 450px;
+}
+.logo-and-motto{
+    gap: 25px;
+}
+.links{
+    gap: 15px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-top: 2px solid var(--border-color);
+}
+.shop-company-wrapper{
+    display: flex;
+    gap: 70px;
+}
+.icons *{
+    display: inline;
+    /* border: 2px solid red; */
+}

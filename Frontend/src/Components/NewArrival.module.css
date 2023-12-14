@@ -1,0 +1,54 @@
+.carouselContainer {
+  position: relative;
+  top: 610px;
+  height: 629px;
+  background-color: #795aac;
+  overflow: hidden;
+}
+
+.titleContainer {
+  padding: 30px;
+  top: 30px;
+}
+
+.title {
+  font-size: 35px;
+  line-height: 38px;
+  font-weight: bold;
+  color: white;
+}
+
+.slider {
+  margin: 0 20px;
+  top: 10px;
+  left: 50px;
+  width: 90%;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* height: 409px; */
+}
+
+.productImage {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+}
+
+.productInfo {
+  text-align: center;
+}
+
+.productName {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.productPrice {
+  color: white;
+}

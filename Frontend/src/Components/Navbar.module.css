@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+:root {
+    --primary-color: #795AAC;
+    --button : #999DEE;
+    --Background: #E9E9E9;
+    --text: White;
+}
+.navbar {
+    /* margin: auto;
+    width: 90%; */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.upper {
+    width: 100%;
+    height: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+}
+.upper .left {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper .left h4 {
+    font-family: 'Han ken Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+}
+.upper .right {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.icons {
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #795AAC;
+    gap: 5px;
+    width: fit-content;
+    font-family: var(--font-family);
+    border-radius: 5px;
+    border: transparent;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    padding: 3px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    /* margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    font-size: 1.2em; */
+}
+.lower {
+    width: 100%;
+    height: 50%;
+    background-color: var(--Background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.lower .left {
+    width: 10%;
+    height: 100%;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.lower .left a img {
+    max-width: 85%;
+}
+.lower .middle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Han ken Grotesk', sans-serif;
+    font-weight: 700;
+    /* font-size: 1.2em; */
+}
+.lower .middle a,link {
+    text-decoration: none;
+    color: black;
+}
+.lower .right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    margin: 1px;
+    color: white;
+    /* font-size: 1.2em; */
+}
+
+/* Style for the search input field */
+.search {
+    margin: 5px 15px;
+    padding: 10px;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+
+
+
+.notificationContainer {
+    position: absolute;
+    top: 60px; /* Adjust the distance from the navbar as needed */
+    right: 0;
+    z-index: 10000;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(5px);  */
+    z-index: 999; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* pointer-events: all; */
+  }

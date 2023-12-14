@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hanken+Grotesk:wght@500;700;800&family=Inter&display=swap');
+:root {
+    --primary-color: #795AAC;
+    --button : #999DEE;
+    --Background: #E9E9E9;
+    --text: White;
+}
+.navbar {
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.upper {
+    width: 100%;
+    height: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+}
+.upper .left {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.upper .left h4 {
+    font-family: 'Han ken Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+}
+.upper .right {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.icons {
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    font-size: 1.2em;
+}
+.lower {
+    width: 100%;
+    height: 50%;
+    background-color: var(--Background);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.lower .left {
+    width: 10%;
+    height: 100%;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.lower .left a img {
+    width: 100%;
+    height: 100%;
+}
+.lower .middle {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Han ken Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.lower .middle a {
+    text-decoration: none;
+    color: black;
+}
+.lower .right {
+    width: 20%;
+    height: 100%;
+}
+
+
+/* Style for the search input field */
+.search {
+    margin: 5px 20px;
+    padding: 10px;
+    width: 70%;
+    height: 30%;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
